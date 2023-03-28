@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <title>Contact</title>
+</head>
+<body class="contactBG">
+    <header class="mainHeader">
+        <h1 class="header1">Nintendo Switch</h1>
+        <img class="headerImage" src="./img/marioLogo.png" alt="Nintendo Logo">
+        <nav>
+            <ul class="headerNav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <form class="contactForm">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" class="firstName" required>
+        
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" class="lastName" required>
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" class="email" required>
+        
+                <label for="phoneNumber">Phone Number:</label>
+                <input type="tel" id="phoneNumber" name="phoneNumber" class="phoneNumber" required>
+        
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" class="message" required></textarea>
+        
+                <input type="submit" value="Submit" class="submitBtn">
+            </form>
+        </section>
+    </main>
+    <footer class="mainFooter">
+        <p>© 2023 Nintendo Switch, property of Nintendo all rights reserved</p>
+        <p>123 Nintendo Way, Nintendo, CA 12345</p>
+        <p>Phone: 1-800-123-4567</p>
+        <a class="csEmail" href="#">Email: customerService@nintendo.com</a>
+    </footer>
+</body>
+</html>

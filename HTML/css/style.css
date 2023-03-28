@@ -1,0 +1,238 @@
+/* HEADER AND FOOTER CSS */
+.mainHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(151, 39, 39);
+    font-family: 'Bebas Neue', cursive;
+}
+  
+.headerImage {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.headerImage a {
+    display: block;
+}
+
+.headerNav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.headerNav li {
+    margin-right: 20px;
+}
+
+.headerNav li:last-child {
+    margin-right: 0;
+}
+
+.headerNav a {
+    text-decoration: none;
+    color: #f4f4f4;
+    font-size: 40px;
+}
+
+.headerNav a:hover {
+    color: #0066cc;
+}
+
+.mainFooter {
+    background-color: rgb(65, 63, 63);
+    color: #f4f4f4;
+    text-align: center;
+    padding: 10px;
+}
+
+.csEmail {
+    color: #f4f4f4;
+    text-decoration: none;
+}
+
+.header1 {
+    color: #f4f4f4;
+}
+
+/* INDEX CSS */
+.indexMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.header2 {
+    text-align: center;
+    padding: 10px;
+    font-size: 50px;
+}
+
+.switchConsole {
+    background-image: url("/img/bg1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.smashBros {
+    padding-left: 300px;
+    width: 24.5%;
+}
+
+.console1 {
+    padding-left: 225px;
+}
+.buyButton {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #FF4500;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 100px;
+}
+
+.buyButton:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+.paragraph {
+    font-size: 30px;
+    padding: 70px;
+    text-align: center;
+}
+.portable {
+    width: 40%;
+    padding-left: 550px;
+}
+
+/* PRODUCT CSS */
+.productBody {
+    text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.N1, .N2, .N3{
+    background-color: #628ae0;
+    padding: 20px;
+}
+
+.buyNow {
+    background-color: #ffa500;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.buyNow:hover {
+    background-color: #ff6600;
+}
+
+.switchOG {
+    padding-left: 150px;
+}
+
+.OLED {
+    width: 35%;
+    padding-left: 150px;
+}
+
+.LITE {
+    width: 40%;
+    padding-left: 150px;
+}
+
+/* ABOUT CSS */
+
+.aboutMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    background-image: url("/img/bg3.jpg");
+}
+
+.miyamotohehe {
+    width: 50%;
+    padding-left: 450px;
+}
+
+/* CONTACT CSS */
+.contactBG {
+    background-image: url("/img/bg2.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contactForm {
+    max-width: 600px;
+    margin: 100px auto;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #f4f4f4;
+  }
+  
+.contactForm label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contactForm input, .contactForm textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #f4f4f4;
+    margin-bottom: 20px;
+}
+
+.contactForm textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.contactForm input:focus, .contactForm textarea:focus {
+    border: 1px solid #333;
+    outline: none;
+}
+
+.contactForm .submitBtn {
+    display: block;
+    margin: 0 auto;
+    background-color: #008CBA;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease-in-out;
+    margin-bottom: 100px;
+}
+
+.contactForm .submitBtn:hover {
+    background-color: #00678C;
+}
